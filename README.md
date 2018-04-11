@@ -41,11 +41,7 @@ Add tests to the Person class to support the following:
 
 * A Person knows which Home they live in
 
-Add tests to the pet class to support the following:
-
-* A pet can only belong to people who live in the same Home
-
-### Iteration 4: Buying Pet-food
+### Iteration 4: Banking
 
 Write tests for the Bank class to support the following:
 
@@ -53,10 +49,18 @@ Write tests for the Bank class to support the following:
 * The bank can create an account for a Person that tracks an amount of money
   * The account starts with 0 money
   * The bank can take a deposit from the person which adds to the money in their account
+    * A deposit can't be for more cash than a person has
   * The bank can manage a withdraw which removes money from a person's account
+    * The withdraw can't be for more money than the account holds
 
-Add tests to the Person class to support the following:
+### Iteration 5: Buying Pet-food
+
+Add code to the Person class to support the following:
+
+* A Person can open a bank account through a method that takes a Bank as an argument.
+  * A Person can deposit and withdraw money from their bank
+  * Write a work method that adds money to a person's cash
 
 * A person can buy pet food
-  * Buying pet food removes money from their account
+  * Buying pet food removes money from their bank account
   * Buying food adds to the food they have available for their pet
