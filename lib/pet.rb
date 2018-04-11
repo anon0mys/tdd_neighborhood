@@ -2,7 +2,7 @@ class Pet
   attr_reader :name
   attr_accessor :food
 
-  def initialize
+  def initialize(name)
     @name = name
     @food = { 'kibble' => 5, 'treats' => 2 }
   end

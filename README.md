@@ -9,7 +9,7 @@
 
 ## Tasks
 
-Welcome to the neighborhood! There are many development files already written that determine how the neighborhood can interact. It is your job to write tests to make sure these behaviors are normal.
+Welcome to the neighborhood! There are many development files already written that determine how the neighborhood can interact. It is your job to write tests to make sure these behaviors work.
 
 ### Iteration 1: Testing a Pet
 
